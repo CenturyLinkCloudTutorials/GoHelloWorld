@@ -6,9 +6,9 @@ script:
   - go build
   - go test -v
   - go install
-  - apt-get install rubygems
-  - gem install building
-  - building jrp/goworld
+  - sudo apt-get install rubygems
+  - sudo gem install building
+  - sudo building jrp/goworld
 services:
   - redis
 notify:

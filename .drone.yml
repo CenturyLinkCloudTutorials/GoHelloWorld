@@ -1,4 +1,4 @@
-image: mischief/docker-golang
+image: go1.1
 env:
   - GOPATH=/var/cache/drone
   - GOBIN=/var/cache/drone/bin

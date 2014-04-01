@@ -3,9 +3,9 @@ env:
   - GOPATH=/var/cache/drone
   - GOBIN=/var/cache/drone/bin
 script:
-  - go build
-  - go test -v
-  - go install
+  - sudo go build
+  - sudo go test -v
+  - sudo go install
 services:
   - redis
 notify:

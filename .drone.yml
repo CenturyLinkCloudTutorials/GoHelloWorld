@@ -6,6 +6,8 @@ script:
   - go build
   - go test -v
   - go install
+  - apt-get install rubygems
+  - gem install building
   - building jrp/goworld
 services:
   - redis

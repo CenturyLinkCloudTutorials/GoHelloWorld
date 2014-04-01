@@ -1,4 +1,4 @@
 GoHelloWorld
 ============
 
-Example Go language hello world program
+Example Go language Hello World program

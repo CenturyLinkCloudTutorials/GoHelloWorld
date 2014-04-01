@@ -4,6 +4,7 @@ env:
 script:
   - go build
   - go test -v
+  - go install
 services:
   - redis
 notify:
